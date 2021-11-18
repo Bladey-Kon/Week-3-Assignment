@@ -1,4 +1,6 @@
-for (let line = "#"; line.length < 8; line += "#")
+for (let line = "#"; line.length < 5; line += "#")
+    console.log(line);
+for (let line = "#"; line.length < 10; line -= "#")
     console.log(line);
 
 for (let n = 1; n <= 100; n++) {
